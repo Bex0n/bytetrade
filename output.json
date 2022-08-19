@@ -1,0 +1,82 @@
+{
+  "info": {
+    "dzien": 5,
+    "ceny_średnie": {
+      "programy": 10.0,
+      "jedzenie": 125.27,
+      "ubrania": 10.0,
+      "narzedzia": 105.0
+    },
+    "ceny_max": {
+      "programy": 10.0,
+      "jedzenie": 125.27,
+      "ubrania": 10.0,
+      "narzedzia": 105.0
+    },
+    "ceny_min": {
+      "programy": 10.0,
+      "jedzenie": 125.27,
+      "ubrania": 10.0,
+      "narzedzia": 105.0
+    }
+  },
+  "robotnicy": [
+    {
+      "id": 1,
+      "poziom": 5,
+      "kariera": "programista",
+      "kupowanie": {
+        "typ": "gadzeciarz",
+        "liczba_narzedzi": 100
+      },
+      "produkcja": {
+        "typ": "chciwy"
+      },
+      "uczenie": {
+        "typ": "student",
+        "okres": 5,
+        "zapas": 2
+      },
+      "zmiana": "rewolucjonista",
+      "produktywnosc": {
+        "programy": 100,
+        "ubrania": 100,
+        "narzedzia": 100,
+        "diamenty": 100,
+        "jedzenie": 100
+      },
+      "zasoby": {
+        "diamenty": 25055.0,
+        "ubrania": [
+          9
+        ],
+        "narzedzia": [
+          0
+        ],
+        "jedzenie": 0,
+        "programy": [
+          100
+        ]
+      }
+    }
+  ],
+  "spekulanci": [
+    {
+      "id": 12,
+      "kariera": "wypukly",
+      "zasoby": {
+        "diamenty": 199.0,
+        "ubrania": [
+          91
+        ],
+        "narzedzia": [
+          100
+        ],
+        "jedzenie": 100,
+        "programy": [
+          100
+        ]
+      }
+    }
+  ]
+}
